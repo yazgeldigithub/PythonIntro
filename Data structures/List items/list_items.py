@@ -7,5 +7,5 @@ print(animals)
 animals[1:3] = []     # Remove 2 items -- "cat" and "giraffe" from the list
 print(animals)
 
-# Clear the list
+animals[0:] = []
 print(animals)
