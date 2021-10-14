@@ -5,4 +5,4 @@ print(name == "John" or not age > 17)
 
 print(name == "John" and not age == 17)
 
-print(???)
+print(name == "Ellis" or not name == "John" and age == 17)
